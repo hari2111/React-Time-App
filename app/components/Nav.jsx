@@ -3,7 +3,7 @@ var {Link,IndexLink}=require('react-router');
 var Nav=()=>{
   return(
     <div>
-        <div className="top-bar">
+        <div className="top-bar fixed">
           <div className="top-bar-left">
             <ul className="menu">
               <li className="menu-text">React Time App</li>
